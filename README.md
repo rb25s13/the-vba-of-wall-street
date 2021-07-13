@@ -13,6 +13,7 @@
 - For Loop to read the ticker column to determine the beginning and end of a ticker group. 
 
 	If the next row doesn't match the current row, then
+	
 		- Write the ticker symbol to the I column
 		
 		- Calculate the yearly change by subtracting the yearly close from the first day open
