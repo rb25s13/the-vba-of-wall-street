@@ -8,7 +8,7 @@
 
 		/Images - screenshots to show a blip of each year of data
 
-### Objective:
+### Summary:
 
 - For Loop to read the ticker column to determine the beginning and end of a ticker group. 
 
@@ -16,13 +16,13 @@
 	
 		- Write the ticker symbol to the I column
 		
-		- Calculate the yearly change by subtracting the yearly close from the first day open
+		- Calculate the yearly change by subtracting the yearly close from the first day open, write to J column
 		
-		- Calculate the percentage of the change by dividing the change by the first day open
+		- Calculate the percentage of the change by dividing the change by the first day open, write to K column
 		
 		- Format the yearly change and percent change to red or green based on positive or negative
 		
-		- Get the sum of the stock volume for every day it was traded.
+		- Get the sum of the stock volume for every day it was traded, write to L column
 		
 - Loops to next ticker group and repeats the steps above until all ticker groups have been written
 
