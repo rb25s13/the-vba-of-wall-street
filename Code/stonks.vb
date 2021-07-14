@@ -23,7 +23,7 @@ Sub stonks()
         
             Application.ScreenUpdating = False
 
-            Dim column  As Integer
+            Dim column As Integer
             Dim tickercolumn As Integer
             Dim yearlychange As Integer
             Dim percentchange As Integer
