@@ -13,7 +13,6 @@ Sub stonks()
 '    You should also have conditional formatting that will highlight positive change in green and negative change in red.
     
     Dim ws As Worksheet
-    'Set ws = ActiveSheet
     
     'loop through all sheets
     For Each ws In ActiveWorkbook.Worksheets
@@ -174,9 +173,6 @@ Sub stonks()
             
             'format the greatest stock decrease value to percentage
             Cells(3, 17).Value = FormatPercent(Cells(3, 17).Value, 2)
-            
-            'format the columns to auto-fit
-            'Cells.Columns.AutoFit
             
         End With
         
